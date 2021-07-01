@@ -1,0 +1,22 @@
+{
+  "name": "catapi-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesAwayAlex/catapi-fetcher.git"
+  },
+  "author": "AX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesAwayAlex/catapi-fetcher/issues"
+  },
+  "homepage": "https://github.com/milesAwayAlex/catapi-fetcher#readme",
+  "dependencies": {
+    "native-request": "^1.0.8"
+  }
+}
