@@ -13,7 +13,9 @@ export default (breed, cb) => {
       }
       if (err) {
         cb(err, null);
-      } else cb(null, data[0].description);
+        return;
+      }
+      cb(null, data[0].description);
     }
   );
 };
